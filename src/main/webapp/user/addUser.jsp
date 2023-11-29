@@ -16,10 +16,18 @@
 <body>
 
 <form class="col-md-4 offset-3 mt-3" action="/userController" method="post">
-    <input placeholder="Firstname" type="text" class="form-control mt-3" name="firstname">
-    <input placeholder="Lastname" type="text" class="form-control mt-3" name="lastname">
-    <input placeholder="PhoneNumber" type="text" class="form-control mt-3" name="phoneNumber">
-    <input placeholder="Password" type="password" class="form-control mt-3" name="password">
+    <label>
+        <input placeholder="Firstname" type="text" class="form-control mt-3" name="firstname"/>
+    </label>
+    <label>
+        <input placeholder="Lastname" type="text" class="form-control mt-3" name="lastname"/>
+    </label>
+    <label>
+        <input placeholder="PhoneNumber" type="text" class="form-control mt-3" name="phoneNumber"/>
+    </label>
+    <label>
+        <input placeholder="Password" type="password" class="form-control mt-3" name="password"/>
+    </label>
     <button class="btn btn-dark form-control mt-2">save</button>
 </form>
 
